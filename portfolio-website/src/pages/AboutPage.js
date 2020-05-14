@@ -15,7 +15,7 @@ function AboutPage(props){
                    The program is a perfect fit for me as I enjoy learning about analysis and design of complex systems. 
                    Having a strong backround in technology has allowed me 
                    to develop many complex projects.In the future, I hope to 
-                   start my own design company to manufacture industrial robotss.
+                   start my own design company to manufacture industrial robots.
                </p>
             </Content>
         </div>
