@@ -56,8 +56,8 @@ class App extends React.Component {
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} /> }/>
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title}/> } />
           <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />}/>
-          <Route path="/ESP32" exact render={() => <Esp32Page  />}/>
-          <Route path="/Buckconverter" exact render={() => <BuckPage  />}/>
+          <Route path={`${process.env.PUBLIC_URL}/ESP32`} exact render={() => <Esp32Page  />}/>
+          <Route path={`${process.env.PUBLIC_URL}/Buckconverter`} exact render={() => <BuckPage  />}/>
           <Footer/>
         </Container>
       </Router>
