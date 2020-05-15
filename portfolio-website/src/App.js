@@ -24,15 +24,17 @@ class App extends React.Component {
         {title: "Contact", path: "/contact"},
       ],
       home: {
-        title: "Prashant Mistry",
-        subTitle: 'It\'s always a mystery',
-        text: 'Check out my project history'
+        title: "Make it Happen",
+        subTitle: 'Projects that ',
+        text: 'Check out my projects below'
       },
       about:{
-        title: "About me"
+        title: "About me",
+        subTitle: 'I am a Developer '
       },
       contact:{
-        title: 'Let\'s Talk'
+        title: 'Got an Interesting project?',
+        subTitle: 'Send me a email'
       }
     }
   }
@@ -46,7 +48,7 @@ class App extends React.Component {
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/">Projects</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
                 
@@ -54,8 +56,8 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} /> }/>
-          <Route path="/about" exact render={() => <AboutPage title={this.state.about.title}/> } />
-          <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />}/>
+          <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subTitle}/> } />
+          <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} />}/>
           <Route path={`${process.env.PUBLIC_URL}/ESP32`} exact render={() => <Esp32Page  />}/>
           <Route path={`${process.env.PUBLIC_URL}/Buckconverter`} exact render={() => <BuckPage  />}/>
           <Footer/>

@@ -24,6 +24,7 @@ code {
 .p-card-info{
  margin-top: 10px;
  min-height: 100px;
+ max-width: 480px;
 }
 .p-card-title{
   font-size: 24px;

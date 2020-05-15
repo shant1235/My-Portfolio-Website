@@ -22,7 +22,7 @@ class Carousel extends React.Component{
                 {
                     id:0,
                     title:'Algorithm Visualiser',
-                    subTitle:'React.js ',
+                    subTitle:'A Web application that displays a list of numbers being sorted by sorting algorithms in real time.',
                     imgSrc: Algo,
                     link: 'https://shant1235.github.io/Sorting-Algorithm-Visualization/',
                     github:'https://github.com/shant1235/Sorting-Algorithm-Visualization',
@@ -31,7 +31,7 @@ class Carousel extends React.Component{
                 {
                     id:1,
                     title:'Rescue Rover',
-                    subTitle:'For high risk enviroments',
+                    subTitle:'A Search and Rescue Rover designed to aid operators with data collection in high risk situations.',
                     imgSrc: Rover,
                     link: 'https://devpost.com/software/rescue-rover',
                     github:'https://github.com/shant1235/MakeUofT-RescueRover',
@@ -40,7 +40,7 @@ class Carousel extends React.Component{
                 {
                     id:2,
                     title:'DriveSafe',
-                    subTitle:'Computer Vision',
+                    subTitle:'A software program to detect imparied drivers and alert emergency contacts of potential danger.',
                     imgSrc: DriveSafe,
                     link: 'https://devpost.com/software/drivesafe-ub4joi',
                     github:'https://github.com/shant1235/DriveSafe-Pi-Arduino',
@@ -49,7 +49,7 @@ class Carousel extends React.Component{
                 {
                     id:3,
                     title:'Mars Rover',
-                    subTitle:'Computer Vision',
+                    subTitle:'A rover capable of moving objects, autonomous traversal through the Utah desert, and teleoperation from over 2km away.',
                     imgSrc: MarsRover,
                     link: 'https://teamr3.ca/rover.html',
                     github:'https://github.com/shant1235/URC-2019-Code',
@@ -58,19 +58,19 @@ class Carousel extends React.Component{
                 {
                     id:4,
                     title:'ESP32 Development Board',
-                    subTitle:'Computer Vision',
+                    subTitle:'A microcontroller development board that utilizes the ESP32-WROOM-32D, with added ethernet capability.',
                     imgSrc: ESP32,
                     link: '/ESP32',
-                    github:'/',
+                    github:'https://grabcad.com/library/esp32-dev-1',
                     selected: false
                 },
                 {
                     id:5,
-                    title:'16V Buckconverter',
-                    subTitle:'Computer Vision',
+                    title:'5V Buck Converter',
+                    subTitle:'A Buck Converter that steps down 17V - 15V to a stable 5V at max 3A.',
                     imgSrc: Buck,
                     link: '/Buckconverter',
-                    github:'/',
+                    github:'https://grabcad.com/library/buckconverter-1',
                     selected: false
                 },
                 

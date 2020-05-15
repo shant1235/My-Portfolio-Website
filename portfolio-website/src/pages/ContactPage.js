@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../components/Hero';
+import Hero2 from '../components/Hero2';
 import Content from '../components/Content';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -61,7 +61,7 @@ class ContactPage extends React.Component{
     render() {
         return(
             <div>
-                <Hero title={this.props.title} />
+                <Hero2 title={this.props.title} subTitle={this.props.subTitle}/>
                 <Content >
                     <Form onSubmit={this.handleSubmit}>
                         <Form.Group>
