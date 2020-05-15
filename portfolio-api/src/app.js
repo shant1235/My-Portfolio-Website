@@ -46,5 +46,5 @@ app.post('/api/email',(req,res,next) => {
             })
         })
 });
-app.use('/.netlify/functions/api',router)
+app.use('/.netlify/functions/app',router)
 
