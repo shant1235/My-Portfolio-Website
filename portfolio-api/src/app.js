@@ -1,13 +1,9 @@
 const express = require('express');
 const bodyParser = require ('body-parser');
-require('dotenv').config();
 const cors = require('cors');
-const serverless = require('serverless-http');
 
 const sendGrid = require('@sendGrid/mail');
 const app = express();
-const router = express.Router();
-
 const port = process.env.PORT || 3030;
 app.use(bodyParser.json());
 app.use(cors());
@@ -46,5 +42,5 @@ app.post('/api/email',(req,res,next) => {
             })
         })
 });
-app.use('/.netlify/functions/app',router)
+app.listen(3030, '0.0.0.0');
 
