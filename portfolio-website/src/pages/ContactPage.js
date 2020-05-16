@@ -34,7 +34,7 @@ class ContactPage extends React.Component{
            disabled:true,
            
        }) 
-    Axios.post('https://irradiated-nation.glitch.me/api/email',this.state)
+    Axios.post('https://emailapi.glitch.me//api/email',this.state)
         .then(res => {
             if(res.data.success){
                 this.setState({
