@@ -17,6 +17,13 @@ function AboutPage(props){
                    to develop many projects with big impact. In the future, I hope to 
                    start my own design company to manufacture industrial robots.
                </p>
+               <h3 className=" ">I love to Design!</h3>
+               <p className="my-5 h5 lead">
+               The creation of new technology has always excited me and my focus as a future
+                engineer is to contribute to innovative ideas that can make a difference . 
+                I have worked hard to hone my skills and I strive to work on projects that
+                 require innovative solutions.
+               </p>
             </Content>
         </div>
     );
