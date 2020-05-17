@@ -13,8 +13,8 @@ function AboutPage(props){
                <p className="my-5 h5 lead">
                    I am a student at Ryerson University currently majoring in Computer Engineering.
                    The program is a perfect fit for me as I enjoy learning about analysis and design of complex systems. 
-                   Having a strong backround in technology has allowed me 
-                   to develop many projects with big impact.In the future, I hope to 
+                   Having a strong background in technology has allowed me 
+                   to develop many projects with big impact. In the future, I hope to 
                    start my own design company to manufacture industrial robots.
                </p>
             </Content>
