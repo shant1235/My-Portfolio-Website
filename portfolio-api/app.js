@@ -3,6 +3,7 @@ const bodyParser = require ('body-parser');
 const cors = require('cors');
 
 const sendGrid = require('@sendgrid/mail');
+sendGrid.setApiKey(process.env.API_KEY);
 const app = express();
 const port = process.env.PORT || 3030;
 app.use(bodyParser.json());
@@ -15,15 +16,15 @@ app.use((req,res,next) => {
 });
 
 app.get('/api',(req,res,next) => {
-
+    
     res.send('API Status Running working')
 });
-
 app.post('/api/email',(req,res,next) => {
-    sendGrid.setApiKey(process.env.API_KEY);
+
+    
     const msg = {
-        to:'shant1235@hotmail.com',
-        from:'shant1235@hotmail.com',
+        to:'prashant.mistry1235@gmail.com',
+        from:'prashant.mistry1235@gmail.com',
         subject:'Website Contact',
         text: req.body.email + req.body.message  
     }
