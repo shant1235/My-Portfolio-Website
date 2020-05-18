@@ -20,7 +20,7 @@ function AboutPage(props){
                <p className="my-5 font-weight-normal lead">
                 The creation of new technology has always excited me which is the main reason I chose to become a engineer. My focus as a future
                 engineer is to contribute to innovative ideas that can make a difference. That's why I will always  
-                worked hard to hone my skills in all areas and strive to work on projects that require innovative solutions. 
+                work hard to hone my skills in all areas and strive to work on projects that require innovative solutions. 
                </p>
                <p className="my-5 font-weight-normal lead">
                     Check out my <a href={"/"} target = "_blank" rel="noopener noreferrer">projects</a>  to see the cool stuff I've been working on!
