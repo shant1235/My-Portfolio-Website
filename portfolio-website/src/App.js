@@ -30,7 +30,7 @@ class App extends React.Component {
       },
       about:{
         title: "About me",
-        subTitle: 'I am a Developer '
+        subTitle: 'I am '
       },
       contact:{
         title: 'Got an Interesting project?',

@@ -1,37 +1,37 @@
 import React from 'react';
-import Hero2 from '../components/Hero2';
+import Hero3 from '../components/Hero3';
 import Content from '../components/Content';
-import me from '../assets/images/AboutMe.JPG'
 
 function AboutPage(props){
     return (
         <div>
-            <Hero2 title={props.title} subTitle={props.subTitle} />
+            <Hero3 title={props.title} subTitle={props.subTitle} />
             <Content>
                 
-                <h3 className=" ">Who am I?</h3>
+                <h3 className=" ">A little bit about me</h3>
                <p className="my-5 font-weight-normal lead">
-                   I am a student at Ryerson University currently majoring in Computer Engineering.
-                   The program is a perfect fit for me as I enjoy learning about analysis and design of complex systems. 
-                   Having a strong background in technology has allowed me 
-                   to develop many projects with big impact. In the future, I hope to 
-                   start my own design company to manufacture industrial robots.
+                    I am a student at Ryerson University currently majoring in Computer Engineering.
+                    The program is a perfect fit for me as I enjoy learning about analysis and design of complex systems. 
+                    I also like learning new things through projects and work. In the future, I want to further my skills in software development
+                    by taking on harder challanges and pushing myself to the limit. This year, I plan to sharpen my skills and work
+                    on more personal projects to prepare myself for future internships.
                </p>
-               <h3 className=" ">I love to Design!</h3>
+               <h3 className=" ">I love to Design</h3>
                <p className="my-5 font-weight-normal lead">
-                The creation of new technology has always excited me and my focus as a future
-                engineer is to contribute to innovative ideas that can make a difference. 
-                I have worked hard to hone my skills in all areas and I strive to work on projects that
-                require innovative solutions.
+                The creation of new technology has always excited me which is the main reason I chose to become a engineer. My focus as a future
+                engineer is to contribute to innovative ideas that can make a difference. That's why I will always  
+                worked hard to hone my skills in all areas and strive to work on projects that require innovative solutions. 
                </p>
-               <h3 className=" ">So, what is happening?</h3>
                <p className="my-5 font-weight-normal lead">
-               Currently, I am part of a student design team called <a href={"https://teamr3.ca/"} target = "_blank" rel="noopener noreferrer">Ryerson Rams Robotics</a> where we build robots to for various competitions.
-               I lead 70+ members on a Rover Controls team to design a model Mars Rover for the Canadian International Rover Challenge 2021.
-                I've had the opportunity to learn many new things about robotics on the team, and I take pride in teaching inspiring robotics enthusiasts.
-                Robotics is something I am passionate about and love to do in my spare time.
-
+                    Check out my <a href={"/"} target = "_blank" rel="noopener noreferrer">projects</a>  to see the cool stuff I've been working on!
                </p>
+               <h3 className=" ">What I do in my spare time</h3>
+               <p className="my-5 font-weight-normal lead">
+                    Currently, I am a part of a student design team called <a href={"https://teamr3.ca/"} target = "_blank" rel="noopener noreferrer">Ryerson Rams Robotics </a> 
+                    where we build robots for various international competitions. On the team, I lead 70+ members to develop a Mars Rover for the 2021 Canadian International Rover Challenge.
+                    I've had the opportunity to learn many new things on the team, and I take pride in mentoring aspiring engineers and fellow robotics enthusiasts.
+               </p>
+               <p className="my-5 font-weight-normal lead">Interested in working on a project together? <a href={"/contact"} target = "_blank" rel="noopener noreferrer">Contact Me</a> </p>
             </Content>
         </div>
     );

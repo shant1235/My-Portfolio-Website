@@ -19,9 +19,9 @@ function Hero(props){
                                     wrapper="b"
                                     steps={
                                         [
-                                            ' are exciting 💥', 2000,
-                                            ' are innovative🌱', 2000,
-                                            ' make a difference ✨', 30000
+                                            ' are exciting 💥', 5000,
+                                            ' are innovative ⚗️', 5000,
+                                            ' make a difference 📡', 30000
                                         ]
                                     }
                                 />

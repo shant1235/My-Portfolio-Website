@@ -8,10 +8,10 @@ function Footer(){
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}> 
-                        Prashant Mistry  
+                        <a href={"https://github.com/shant1235/My-Portfolio-Website"} target = "_blank" rel="noopener noreferrer">See site code</a>
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by Prashant Mistry
+                        Side made by Prashant Mistry
                     </Col>
                 </Row>
             </Container>
