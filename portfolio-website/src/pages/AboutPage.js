@@ -14,7 +14,7 @@ function AboutPage(props){
                     The program is a perfect fit for me as I enjoy learning about analysis and design of complex systems. 
                     I also like learning new things through projects and work. In the future, I want to further my skills in software development
                     by taking on harder challanges and pushing myself to the limit. This year, I plan to sharpen my skills and work
-                    on more personal projects to prepare myself for future internships.
+                    more on personal projects to prepare myself for future internships.
                </p>
                <h3 className=" ">I love to Design</h3>
                <p className="my-5 font-weight-normal lead">
