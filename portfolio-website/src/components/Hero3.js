@@ -11,7 +11,7 @@ function Hero3(props){
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
-                    <Col md={10} sm={12}>
+                    <Col md={8} sm={12}>
                         { props.title && <h1 className="display-1 font-weight-bolder" style={{'font-size':'6vw'}}>{props.title}</h1> }
                         { props.title && <h3 className="display-4 font-weight-light" style={{'font-size':'4vw'}}>{props.subTitle}
                              
