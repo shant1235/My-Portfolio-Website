@@ -11,7 +11,7 @@ function Footer(){
                         <a href={"https://github.com/shant1235/My-Portfolio-Website"} target = "_blank" rel="noopener noreferrer">See site code</a>
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        Side made by Prashant Mistry
+                        Website made by Prashant Mistry
                     </Col>
                 </Row>
             </Container>
