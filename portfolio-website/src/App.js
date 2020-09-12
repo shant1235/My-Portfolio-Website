@@ -11,6 +11,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Esp32Page from './pages/Esp32Page';
 import BuckPage from './pages/BuckPage';
+import CNCPage from './pages/CNCPage';
 
 class App extends React.Component {
   constructor(props){
@@ -59,6 +60,8 @@ class App extends React.Component {
           <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} />}/>
           <Route path={`${process.env.PUBLIC_URL}/ESP32`} exact render={() => <Esp32Page  />}/>
           <Route path={`${process.env.PUBLIC_URL}/Buckconverter`} exact render={() => <BuckPage  />}/>
+          <Route path={`${process.env.PUBLIC_URL}/PDB`} exact render={() => <CNCPage  />}/>
+
           <Footer/>
         </Container>
       </Router>
