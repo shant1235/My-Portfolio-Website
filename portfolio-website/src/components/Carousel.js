@@ -124,13 +124,16 @@ class Carousel extends React.Component{
         return(
             <Container fluid={true}>
                 <Row className="justify-content-around">
-                    {this.makeItems(this.state.items.slice(0,3))}
+                    {this.makeItems(this.state.items.slice(0,2))}
                 </Row>
                 <Row className="justify-content-around">
-                    {this.makeItems(this.state.items.slice(3,5))}
+                    {this.makeItems(this.state.items.slice(2,4))}
                 </Row>
                 <Row className="justify-content-around">
-                    {this.makeItems(this.state.items.slice(5,8))}
+                    {this.makeItems(this.state.items.slice(4,6))}
+                </Row>
+                <Row className="justify-content-around">
+                    {this.makeItems(this.state.items.slice(6,8))}
                 </Row>
             </Container>
             
