@@ -6,7 +6,7 @@ import ESP32 from '../assets/images/test.png'
 import MarsRover from '../assets/images/Mars.jpg'
 import Buck from '../assets/images/Buck.jpg'
 import PDB from '../assets/images/PDB.PNG'
-import Quad from '../assets/images/QUAD.JPG'
+import Quad from '../assets/images/Best render.JPG'
 
 import Card from "../components/Card";
 import Container from 'react-bootstrap/Container';
@@ -125,10 +125,10 @@ class Carousel extends React.Component {
             <Container fluid={true}>
 
                 <Row className="justify-content-around">
-                    {this.makeItems(this.state.items.slice(0, 2))}
+                    {this.makeItems(this.state.items.slice(6, 8))}
                 </Row>
                 <Row className="justify-content-around">
-                    {this.makeItems(this.state.items.slice(6, 8))}
+                    {this.makeItems(this.state.items.slice(0, 2))}
                 </Row>
                 <Row className="justify-content-around">
                     {this.makeItems(this.state.items.slice(2, 4))}
