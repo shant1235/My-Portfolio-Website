@@ -90,7 +90,7 @@ class Carousel extends React.Component {
                     subTitle: 'A quadruped robot that is able to walk, squat and run using only servo motors. (More info will be avalaible upon completion)',
                     imgSrc: Quad,
                     link: '/',
-                    github: 'https://www.prashantmistry.com/',
+                    github: 'https://github.com/shant1235/QuadDoggo',
                     selected: false
                 },
 
